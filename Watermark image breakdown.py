@@ -2,15 +2,15 @@
 # coding: utf-8
 
 # <H2> Code Breakdown </H2>
-
-infile_path = "C:/Users/nnour/Desktop/!dev/threading/images/test.jpg"
+#"C:/Users/nnour/Desktop/!dev/threading/images/test.jpg"
+infile_path = "8872.jpg"
 #input("Enter the image file path : ")
-
+# hello
 # Constants
 INPUT_IMAGE_FILE = infile_path
 OUTPUT_IMAGE_FILE = infile_path + ".converted.png"
 FONT_LOCATION = "calibrib.ttf"
-FONT_SIZE = 16
+FONT_SIZE = 80
 H_SPACING = 70
 V_SPACING = 90
 FONT_OPACITY = 75
@@ -43,7 +43,19 @@ up_down = +1  # for interesting tiling pattern ( up down position difference )
 
 # Looping for additional watermarks
 new_position = (current_width - text_width) - H_SPACING, current_height + (up_down * (V_SPACING // 2))
-im.paste(im_text, (533, 390), im_text)  # pasting the watermark on the parent image
+#top ling
+im.paste(im_text, (0, 0), im_text)  # pasting the watermark on the parent image
+im.paste(im_text, (1600, 0), im_text)
+im.paste(im_text, (3200, 0), im_text)
+im.paste(im_text, (4800, 0), im_text)
+im.paste(im_text, (6400, 0), im_text)
+
+#middle line
+im.paste(im_text, (0, 2000), im_text)  # pasting the watermark on the parent image
+im.paste(im_text, (1600, 2000), im_text)
+im.paste(im_text, (3200, 2000), im_text)
+im.paste(im_text, (4800, 2000), im_text)
+im.paste(im_text, (6400, 2000), im_text)
 
 
 # bottom horizontal watermark line repeat
