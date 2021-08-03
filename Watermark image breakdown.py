@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+#twewe
 # <H2> Code Breakdown </H2>
 #"C:/Users/nnour/Desktop/!dev/threading/images/test.jpg"
 infile_path = "8872.jpg"
